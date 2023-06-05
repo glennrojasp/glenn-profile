@@ -6,3 +6,6 @@
 .text-primary {
   color: #fed136 !important;
 }
+section h3.section-subheading{
+  line-height: 2rem;
+}
