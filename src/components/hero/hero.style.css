@@ -39,6 +39,34 @@ header.masthead {
     margin-bottom: 25px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
+
+  header .quick-links{
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 25px;
+    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  header .quick-links ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+  }
+
+  header .quick-links ul li{
+    list-style-type: none;
+    margin: 0 30px 0 0;
+    color: white;
+  }
+
+  header .quick-links ul li a{
+    color: white;
+  }
   
   @media (min-width: 768px) {
     header.masthead .intro-text {
