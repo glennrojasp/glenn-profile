@@ -10,13 +10,19 @@ export const Resume = () =>(
     <section id="services">
     <div className="container">
       <div className="row">
-        <div className="col-lg-12 text-center">
+        <div className="col-lg-12 text-center width-80">
           <h2 className="section-heading text-uppercase">About<br/><br/></h2>
           <h3 className="section-subheading text-muted">
-            I am a Front End Developer with knowledge of BackEnd. With 6 years of experience working in web development. 
+                    As a Front End Developer with expertise in Back End design, Database management, and UX, I bring a well-rounded
+          perspective to software development. My proficiency in Adobe Creative Cloud and Adobe Experience Manager (AEM)
+          allows me to create visually appealing and user-friendly digital experiences. 
+          I am experienced in the entire software development life-cycle and possess strong interpersonal skills
+          that make me an effective team player. Additionally, I am a quick learner, humble, and adaptable to changing environments.
+          
+            {/* I am a Front End Developer with knowledge of BackEnd. With 6 years of experience working in web development. 
             <br/><br/>Accomplished in the software life-cycle, with strong soft skill communication, quick learner and a good team player.
             <br/><br/>Also, I finished Hangar’s AEM TDP program (AEM Business Practitioner and AEM Front End Developer certificates).
-            <br/><br/>I have basic knowledge of UX design, experience in Adobe CC, and basic experience in Graphic design.
+            <br/><br/>I have basic knowledge of UX design, experience in Adobe CC, and basic experience in Graphic design. */}
           </h3>
         </div>
       </div>
@@ -36,7 +42,7 @@ export const Resume = () =>(
         <Ability titulo="Bootstrap" principalIcon={faBootstrap} color="purple"/>
         <Ability titulo="Sass" principalIcon={faSass} color="purple"/>
         <Ability titulo="Git" principalIcon={faGitAlt} color="danger"/>
-        <Ability titulo="Node JS" principalIcon={faNode} color="success"/>
+        <Ability titulo="FireBase" principalIcon={faDatabase} color="warning"/>
         <Ability titulo="MongoDB" principalIcon={faDatabase} color="success"/>
         <Ability titulo="JHipster" principalIcon={faGlasses} color="info"/>
       </div>
