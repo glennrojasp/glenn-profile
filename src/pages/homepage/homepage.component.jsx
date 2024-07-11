@@ -41,14 +41,14 @@ class HomePage extends React.Component{
             sections : [
                 {
                     "title": "PINVAR S.A.",
-                    "linkUrl": "http://www.pinvarsa.com/",
+                    "linkUrl": "https://pinvar.vercel.app/",
                     "description": "Home Services & Home Appliances Page",
                     "img": require("../../img/portfolio//01-thumbnail.jpg"),
                     "id": 1
                 },
                 {
                     "title": "Glenn Personal Coach",
-                    "linkUrl": "http://www.olympuscr.com/",
+                    "linkUrl": "https://olympus-iota.vercel.app/",
                     "description": "Fitness services & Gym Page",
                     "img": require("../../img/portfolio/03-thumbnail.jpg"),
                     "id": 2
